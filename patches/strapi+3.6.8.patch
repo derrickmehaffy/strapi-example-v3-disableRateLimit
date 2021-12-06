@@ -1,0 +1,10 @@
+diff --git a/node_modules/strapi/lib/index.js b/node_modules/strapi/lib/index.js
+index 6d63701..d2abb28 100644
+--- a/node_modules/strapi/lib/index.js
++++ b/node_modules/strapi/lib/index.js
+@@ -1,3 +1,5 @@
+ 'use strict';
+ 
+ module.exports = require('./Strapi');
++
++console.log('TEST')

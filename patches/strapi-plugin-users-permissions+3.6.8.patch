@@ -1,0 +1,13 @@
+diff --git a/node_modules/strapi-plugin-users-permissions/config/routes.json b/node_modules/strapi-plugin-users-permissions/config/routes.json
+index 3fddd5a..5969547 100644
+--- a/node_modules/strapi-plugin-users-permissions/config/routes.json
++++ b/node_modules/strapi-plugin-users-permissions/config/routes.json
+@@ -206,7 +206,7 @@
+       "path": "/auth/local",
+       "handler": "Auth.callback",
+       "config": {
+-        "policies": ["plugins::users-permissions.ratelimit"],
++        "policies": [],
+         "prefix": "",
+         "description": "Login a user using the identifiers email and password",
+         "tag": {
